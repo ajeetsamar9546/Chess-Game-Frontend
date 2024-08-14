@@ -1,0 +1,9 @@
+npm install gh-pages --save-dev
+
+"homepage": "https://ajeet0486.github.io/Blog-App",
+
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+
+npm run deploy

@@ -1,0 +1,30 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .square {
+    width:75px;
+    height:75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+    font-size: 24px;
+    position: relative;
+  }
+  
+  .square:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  .piece {
+    cursor: move;
+  }
+  
